@@ -1,5 +1,5 @@
 # Triadic orthogonal decomposition in MATLAB
-![Graphical abstract](aux/graphical_abstract.jpg "TOD modes")
+![Graphical abstract](aux/TOD_widelogo.png "TOD modes")
 TOD() is a MATLAB implementation of triadic orthogonal decomposition (TOD), a method tailored to triadic interactions among three wave components that enable interscale energy transfer, developed by Yeung, Chu & Schmidt [[1](https://doi.org/10.1017/jfm.2026.11183)]. For applications in fluid dynamics, TOD distinguishes three components - a momentum recipient, donor, and catalyst - and recovers laws governing triad conservation. It identifies coherent flow structures optimally capturing spectral momentum transfer, quantifies their coupling and energy exchange in an energy-budget bispectrum, and reveals the regions where they interact.
 
 The direct numerical simulation data provided along with this example is a $Re=100$ cylinder wake calculated using the polyharmonic splines with polynomial augmentation radial basis function-finite differences implementation of the fractional-step, staggered-grid incompressible Navier-Stokes solver developed by Chu & Schmidt [[2](https://doi.org/10.1016/j.jcp.2022.111756)]. A discussion of the results in these examples can be found in [[1](https://doi.org/10.1017/jfm.2026.11183)].
